@@ -5,8 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class AuthorizationApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(AuthorizationApplication.class, args);
-        System.out.println("🚀 Authorization app is running successfully!");
-    }
+
+	public static void main(String[] args) {
+		SpringApplication.run(AuthorizationApplication.class, args);
+	}
+
 }
